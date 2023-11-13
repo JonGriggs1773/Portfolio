@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     color: aliceblue;
 }
 
@@ -17,7 +17,7 @@ body {
 #navbar {
     width: 80%;
     height: 75px;
-    background-color: #696969;
+    background-color:  #c0c0c0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +35,10 @@ body {
     padding: 15px;
 }
 
+h1 {
+    color:#583e9f;
+}
+
 #group-links {
     display: flex;
     width: 25%;
@@ -42,10 +46,26 @@ body {
     padding: 25px;
 }
 
+.links {
+    color: #583e9f;
+}
+
+#intro {
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    border: solid black 2px;
+    margin: 100px auto;
+    font-size: xx-large;
+    text-align: center;
+    background-color:  #c0c0c0;
+    color: #583e9f;
+    padding: 10px;
+}
+
 #container {
-    /* background-color: #191970; */
     width: 1000px;
-    height: 10000px;
+    height: 100%;
     margin: 0 auto;
     border-radius: 20px;
     padding-top: 100px;
