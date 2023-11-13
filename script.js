@@ -2,6 +2,7 @@
 
 const showDetails = (element) => {
     let text = element.innerText
+    console.log(text)
     switch(text) {
         case "Front-End":
             element.innerHTML = "<p>HTML, CSS and Javascript</p>"
@@ -12,7 +13,7 @@ const showDetails = (element) => {
         case "Databases":
             element.innerHTML = "<p>MySQL and MongoDB</p>"
             break
-        case "Frameworks and Libraries":
+        case "Frameworks/\nLibraries":
             element.innerHTML = "<p>Flask, SpringBoot, libGDX, Jinja2, React.js, Express.js, Chart.js, Three.js, Bootstrap, Mongoose</p>"
             break
         case "Tools":
@@ -28,7 +29,7 @@ const showDetails = (element) => {
             element.innerHTML = "<h3>Databases</h3>"
             break
         case "Flask, SpringBoot, libGDX, Jinja2, React.js, Express.js, Chart.js, Three.js, Bootstrap, Mongoose":
-            element.innerHTML = "<h3>Frameworks and Libraries</h3>"
+            element.innerHTML = "<h3>Frameworks/</h3><h3>Libraries</h3>"
             break
         case "VSCode, Eclipse, Vite, Maven, Postman, and Figma":
             element.innerHTML = "<h3>Tools</h3>"
