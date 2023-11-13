@@ -2,6 +2,53 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(/assets/background.jpg);
+}
+
+#initial {
+    height: 25px;
+    padding: 10px;
+}
+
+#navbar {
+    width: 80%;
+    height: 75px;
+    background-color: #696969;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+#nav-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+#group-links {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+#container {
+    /* background-color: #191970; */
+    width: 1000px;
+    height: 10000px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-top: 100px;
 }
 
 .proj-img {
