@@ -88,8 +88,9 @@ h1 {
 
 #skills {
     display: flex;
-    padding: 25px;
+    padding-top: 25px;
     margin: 0 auto;
+    width: 1000px;
 }
 
 .cards {
@@ -101,5 +102,88 @@ h1 {
     justify-content: center;
     align-items: center;
     cursor: crosshair;
+
 }
 
+#projects {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.proj-details, .proj-details-1 {
+    margin: 25px;
+    border-bottom: solid #c0c0c0 3px;
+    padding-bottom: 50px;
+}
+
+.proj-details {
+    display: flex;
+    align-items: center;
+}
+
+.proj-details-1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.proj-title, .proj-title-1 {
+    font-size: xx-large;
+    color: #c0c0c0;
+}
+
+.proj-title-1 {
+    align-self: flex-end;
+}
+
+.description {
+    padding: 25px;
+    color: #c0c0c0;
+}
+
+.proj-img {
+    border: solid black 2px;
+    border-radius: 20px;
+}
+
+#collaboration {
+    width: 900px;
+    height: 400px;
+    background-color: #c0c0c0;
+    display: flex;
+    align-items: center;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    background-color: #583e9f;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#collab-sub {
+    color:#583e9f;
+    font-size: xx-large;
+}
+
+#collab-img {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    border:solid 2px #583e9f;
+    margin-left: 25px;
+}
+
+.collab-subsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

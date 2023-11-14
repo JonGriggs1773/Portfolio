@@ -14,10 +14,10 @@ const showDetails = (element) => {
             element.innerHTML = "<p>MySQL and MongoDB</p>"
             break
         case "Frameworks/\nLibraries":
-            element.innerHTML = "<p>Flask, SpringBoot, libGDX, Jinja2, React.js, Express.js, Chart.js, Three.js, Bootstrap, Mongoose</p>"
+            element.innerHTML = "<p style='font-size: small; padding: 10px;'>Flask, SpringBoot, libGDX, Jinja2, React.js, Express.js, Chart.js, Three.js, Bootstrap, Mongoose</p>"
             break
         case "Tools":
-            element.innerHTML = "<p>VSCode, Eclipse, Vite, Maven, Postman, and Figma</p>"
+            element.innerHTML = "<p style='font-size: small; padding: 10px;'>VSCode, Eclipse, Vite, Maven, Postman, and Figma</p>"
             break
         case "HTML, CSS and Javascript":
             element.innerHTML = "<h3>Front-End</h3>"
