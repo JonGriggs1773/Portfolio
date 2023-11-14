@@ -187,3 +187,26 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+
+.social-links {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000; /* Ensures the icons stay on top of other elements */
+}
+
+.social-links a {
+    margin: 0 5px;
+    display: inline-block;
+    width: 24px; /* Sets the size of the icons */
+    height: 24px;
+}
+
+.social-links svg {
+    fill: currentColor; /* Makes the SVG inherit the text color */
+    transition: fill 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-links a:hover svg {
+    fill: #0077b5; /* LinkedIn blue or GitHub black, for hover effect */
+}
