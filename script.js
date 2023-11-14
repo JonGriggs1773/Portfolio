@@ -35,3 +35,13 @@ const showDetails = (element) => {
             element.innerHTML = "<h3>Tools</h3>"
     }
 }
+
+
+const shadowEffectOn = (element) => {
+    console.log(element.style)
+    element.style.boxShadow = "0px 0px 5px 5px black"
+}
+
+const shadowEffectOff = (element) => {
+    element.style.boxShadow = ""
+}
