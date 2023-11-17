@@ -11,6 +11,41 @@ body {
     background-image: url(/assets/background.jpg);
 }
 
+.alert-box {
+    display: none;
+    border-radius: 10px;
+    background-color: #888;
+    margin: 0 auto; /* 15% from the top and centered */
+    margin-top: 15%;
+    padding: 20px;
+    border: 3px solid #000000;
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: 70px;
+    position: fixed; /* Fixed positioning relative to the viewport */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+}
+
+#alert-ok {
+    width: 100px;
+    height: 30px;
+    background-color: #0077b5;
+    border: solid black 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
 #initial {
     height: 25px;
     padding: 10px;
@@ -60,7 +95,6 @@ h1 {
     font-size: 50px;
     width: 500px;
     text-align: center;
-
     color: #000000;
 }
 
@@ -97,7 +131,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;;
+    margin-bottom: 100px;
 }
 
 #skills {

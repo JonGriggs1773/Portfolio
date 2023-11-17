@@ -9,6 +9,9 @@
     <title>Jon Griggs</title>
 </head>
 <body>
+
+    
+    
     <div id="navbar">
         <div id="nav-header">
             <img src="assets/initials.png" id="initial" alt="JG"/>
@@ -20,14 +23,21 @@
             <a href="/assets/resume.pdf" target="_blank" class="links">Resume</a>
         </div>
     </div>
+    <div class="alert-box" id="custom-modal">
+        <div id="modal-content">
+            <p>Greetings! Click the circular skill icons to view my technological proficiencies.</p>
+            <button onclick="closeAlert()" id="alert-ok">OK</button>
+        </div>
+    </div>
     <div id="container">
+        <!--! Custom alert modal -->
         <h2 id="intro-head">Hello! <br>My name is Jonathen  Griggs</h2>
         <p id="intro">
             Welcome to my portfolio page! <br> I hope you find everything you're looking
             for and more! <br>Thank you for visiting!
         </p>
 
-        <div class="subheader">
+        <div class="subheader show-alert">
             <h2>My Skills</h2>
             <div id="skills">
                 <div onclick="showDetails(this)" onmouseover="shadowEffectOn(this)" onmouseout="shadowEffectOff(this)" class="cards">
