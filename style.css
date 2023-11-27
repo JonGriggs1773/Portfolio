@@ -77,19 +77,30 @@ h1 {
     color:#583e9f;
 }
 
+#proj-links {
+    text-align: center;
+}
+
+.code {
+    text-decoration: underline;
+    color: #000000;
+    padding: 10px;
+}
+
 a {
     text-decoration: none;
 }
 
 #group-links {
     display: flex;
-    width: 25%;
+    width: 15%;
     justify-content: space-between;
     padding: 25px;
 }
 
 .links {
     color: #583e9f;
+    text-decoration: underline;
 }
 
 #intro-head {
@@ -105,6 +116,19 @@ a {
 #intro {
     width: 90%;
     height: 200px;
+    border-radius: 20px;
+    border: solid black 2px;
+    margin: 100px auto;
+    text-align: center;
+    background-color:  #000000;
+    font-size: xx-large;
+    color: #583e9f;
+    padding: 10px; 
+    line-height: 50px;
+}
+
+#contact-intro {
+    width: 90%;
     border-radius: 20px;
     border: solid black 2px;
     margin: 100px auto;
@@ -232,6 +256,7 @@ a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #collab-sub {
@@ -274,4 +299,29 @@ a {
 
 .social-links a:hover svg {
     fill: #0077b5; /* LinkedIn blue or GitHub black, for hover effect */
+}
+
+#form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    padding: 15px;
+}
+
+.contact-input {
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    color: #000000;
+}
+
+textarea {
+    border-radius: 20px;
+    padding: 10px;
 }
