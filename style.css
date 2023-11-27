@@ -77,6 +77,10 @@ h1 {
     color:#583e9f;
 }
 
+a {
+    text-decoration: none;
+}
+
 #group-links {
     display: flex;
     width: 25%;
@@ -110,6 +114,19 @@ h1 {
     color: #583e9f;
     padding: 10px; 
     line-height: 50px;
+}
+
+#about {
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid black 2px;
+    margin: 100px auto;
+    text-align: center;
+    background-color:  #000000;
+    font-size: large;
+    color: #583e9f;
+    line-height: 40px;
 }
 
 #container {
